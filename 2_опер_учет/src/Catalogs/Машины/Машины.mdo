@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8edf3257-6d1c-4852-9905-3e175bf3e77d">
+  <producedTypes>
+    <objectType typeId="8430cfd7-53f6-4d5e-af86-bc3a61c82b2d" valueTypeId="1049f57c-4a78-4525-82a3-198700428c0d"/>
+    <refType typeId="f58b20f3-5b98-48f7-b034-186b55bafe9e" valueTypeId="6aab4551-5722-4b7c-8180-34263e78561b"/>
+    <selectionType typeId="f1f22c07-b98b-4577-9e46-eca15243676e" valueTypeId="fe2c5e73-90b1-46f8-bde4-c04c10c684c7"/>
+    <listType typeId="6681c6b8-0429-42b6-8821-33f7b987d9e9" valueTypeId="60adf496-7e8d-4561-9626-49ab70ae248a"/>
+    <managerType typeId="bfc95594-eb49-4c00-bf82-1cb41df16e49" valueTypeId="74d10650-f458-4994-80ea-3f95ec3ce316"/>
+  </producedTypes>
+  <name>Машины</name>
+  <synonym>
+    <key>ru</key>
+    <value>Машины</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Машины.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Машины.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="6c4a9252-b651-42ce-b4b4-f44d09577946">
+    <name>Марка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="02a638dd-6d03-4621-b027-5cb1c0833df9">
+    <name>ГодВыпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год выпуска</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
